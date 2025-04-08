@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Error injected: The root element should be named "Hotels" but here it is "Hotel". -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Error injected: Two <Name> elements are provided for this hotel -->
+  <Hotel Rating="4.2">
+    <Name>Westin Tempe</Name>
+    <Name>Duplicate Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address NearestAirport="Sky Harbor">
+      <Number>11</Number>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error injected: Missing required attribute "Rating" -->
+  <Hotel>
+    <Name>Hilton Downtown</Name>
+    <Phone>602-123-4567</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>Main St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85004</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error injected: Missing a Phone element on this hotel -->
+  <Hotel Rating="4.5">
+    <Name>Marriott Scottsdale</Name>
+    <!-- Phone element omitted intentionally -->
+    <Address NearestAirport="Scottsdale Airport">
+      <Number>200</Number>
+      <Street>McDowell Rd</Street>
+      <City>Scottsdale</City>
+      <State>AZ</State>
+      <Zip>85251</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- Error injected: The Address element is missing its closing tag -->
+  <Hotel Rating="4.0">
+    <Name>Renaissance Phoenix Downtown</Name>
+    <Phone>602-234-5678</Phone>
+    <Address>
+      <Number>350</Number>
+      <Street>W Washington St</Street>
+      <City>Phoenix</City>
+      <State>AZ</State>
+      <Zip>85003</Zip>
+      <!-- Notice: The closing </Address> tag is missing here -->
+    </Hotel>
+
+</Hotel>
