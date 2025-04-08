@@ -4,7 +4,7 @@
     <Name>Westin</Name>
     <Phone>480-968-8885</Phone>
     <Phone>800-937-8461</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>11</Number>
       <Street>E.7th St</Street>
       <City>Tempe</City>
@@ -27,7 +27,7 @@
     <Name>Marriott Scottsdale</Name>
     <Phone>480-234-5678</Phone>
     <Phone>480-876-5432</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address NearstAirport="Scottsdale Airport">
       <Number>200</Number>
       <Street>McDowell Rd</Street>
       <City>Scottsdale</City>
@@ -49,7 +49,7 @@
   <Hotel Rating="3.9">
     <Name>Hyatt Regency</Name>
     <Phone>480-345-6789</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>400</Number>
       <Street>S 7th Ave</Street>
       <City>Tempe</City>
@@ -72,7 +72,7 @@
   <Hotel Rating="4.3">
     <Name>Embassy Suites Scottsdale</Name>
     <Phone>480-456-7890</Phone>
-    <Address NearestAirport="Scottsdale Airport">
+    <Address NearstAirport="Scottsdale Airport">
       <Number>250</Number>
       <Street>E Camelback Rd</Street>
       <City>Scottsdale</City>
@@ -95,7 +95,7 @@
     <Name>DoubleTree by Hilton Tempe</Name>
     <Phone>480-567-8901</Phone>
     <Phone>480-678-9012</Phone>
-    <Address NearestAirport="Sky Harbor">
+    <Address NearstAirport="Sky Harbor">
       <Number>500</Number>
       <Street>W University Dr</Street>
       <City>Tempe</City>
